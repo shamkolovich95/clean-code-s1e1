@@ -6,48 +6,52 @@
     <title>Todo App</title>
   </head>
   <body class="page">
-    <div class="title">
+    <header class="title">
       <img class="title__image" src="./eisenhower-matrix.jpg">
       <a class="title__text" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="wrapper">
-        <p class="section-add">
+    </header>
+    <main class="wrapper">
+        <div class="section-add">
           <label class="section-add__label" for="new-task">Add Item</label>
           <div class="section-add-block block">
             <input id="new-task" class="block__input_add input max-width" type="text">
             <button class="block__button button">Add</button>
           </div>
-        </p>
-      <h3 class="wrapper__sub-title">Todo</h3>
-      <ul class="section-do">
-        <li class="section-do-block block">
-          <input type="checkbox" class="block__checkbox checkbox">
-          <label class="block__label label max-width">Pay Bills</label>
-          <input type="text" class="block__input input max-width">
-          <button class="block__edit button">Edit</button>
-          <button class="block__delete button">
-            <img class="block__image" src="./remove.svg">
-          </button>
-        </li>
-        <li class="section-do-block section-do-block_save block">
-          <input type="checkbox" class="block__checkbox checkbox">
-          <label class="block__label label max-width">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="block__input input max-width">
-          <button class="block__edit button">Save</button>
-          <button class="block__delete button"><img class="block__image" src="./remove.svg"></button>
-        </li>
-      </ul>
-      <h3 class="wrapper__sub-title">Completed</h3>
-      <ul class="section-complete">
-        <li class="section-do-block block">
-          <input type="checkbox" class="checkbox" checked>
-          <label class="block__label label max-width">See the Doctor</label>
-          <input type="text" class="block__input input max-width">
-          <button class="block__edit button">Edit</button>
-          <button class="block__delete button"><img class="block__image" src="./remove.svg"></button>
-        </li>
-      </ul>
-    </div>
+        </div>
+     <section>
+        <h3 class="wrapper__sub-title">Todo</h3>
+        <ul class="section-do">
+          <li class="section-do-block block">
+            <input type="checkbox" class="block__checkbox checkbox">
+            <label class="block__label label max-width">Pay Bills</label>
+            <input type="text" class="block__input input max-width">
+            <button class="block__edit button">Edit</button>
+            <button class="block__delete button">
+              <img class="block__image" src="./remove.svg">
+            </button>
+          </li>
+          <li class="section-do-block section-do-block_save block">
+            <input type="checkbox" class="block__checkbox checkbox">
+            <label class="block__label label max-width">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="block__input input max-width">
+            <button class="block__edit button">Save</button>
+            <button class="block__delete button"><img class="block__image" src="./remove.svg"></button>
+          </li>
+        </ul>
+     </section>
+      <section>
+        <h3 class="wrapper__sub-title">Completed</h3>
+        <ul class="section-complete">
+          <li class="section-do-block block">
+            <input type="checkbox" class="checkbox" checked>
+            <label class="block__label label max-width">See the Doctor</label>
+            <input type="text" class="block__input input max-width">
+            <button class="block__edit button">Edit</button>
+            <button class="block__delete button"><img class="block__image" src="./remove.svg"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
