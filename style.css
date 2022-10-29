@@ -37,7 +37,7 @@
 .max-width {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .block {
@@ -139,7 +139,7 @@ input,button{
 }
 
 .block .input {
-    width: 226px
+    width: 226px;
 }
 
 .block__image {
@@ -163,12 +163,12 @@ input,button{
 /* Edit Task */
 
 .section-do-block .block__input {
-    display: none
+    display: none;
 }
 
 .section-do-block_save .block__input {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .section-do-block_save .block__label {
