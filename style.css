@@ -44,16 +44,16 @@
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 
 input,button{
-    outline:none;
+    outline: none;
 }
 
 .button {
@@ -163,14 +163,14 @@ input,button{
 /* Edit Task */
 
 .section-do-block .block__input {
-    display:none
+    display: none
 }
 
 .section-do-block_save .block__input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .section-do-block_save .block__label {
-    display:none;
+    display: none;
 }
